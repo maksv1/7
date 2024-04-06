@@ -1,0 +1,82 @@
+body{
+    background-color: #f1bc7f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+header button{
+    margin-right: 50px;
+}
+.clashofclansimg{
+    margin-left: 50px;
+}
+button{
+    background-color: #00000000;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    height: 75px;
+    width: auto;
+}
+.div2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.img{
+    margin-left: 200px;
+}
+.div3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 70px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.redtextdiv3{
+    font-weight: bold; 
+    color: red; 
+    font-size: 40px;
+}
+.div4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.div4 button{
+    width: 200px;
+    color: rgb(10, 9, 9);
+    background-color: #E79F4A;
+}
+.div4button{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.spanbuttondiv4{
+    align-items: center;
+}
+.faqbutton{
+    margin-left: 10px;
+}
+.singup{
+    color: rgb(15, 14, 14); background-color: #E79F4A;
+}
+button:hover {
+    background-color: #E79F4A;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+button:active {
+    background-color: #ee8d1f;
+}
